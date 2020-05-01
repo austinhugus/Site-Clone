@@ -1,0 +1,13 @@
+.container-fluid {
+ padding: 0px;
+}
+.bg-flyfish {
+background-image: url(http://jacksonhole-traveler-production.s3.amazonaws.com/wp-content/uploads/2014/11/1408-jacksonhole-flyfishing-388.jpg);    
+background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+.form-color {
+    background-color: #EBE8E7 ;
+}
