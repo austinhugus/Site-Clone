@@ -11,3 +11,9 @@ background-attachment: fixed;
 .form-color {
     background-color: #EBE8E7 ;
 }
+
+.progress {
+    height: 50px;
+}
+.body { 
+    padding-top: 55px; }
