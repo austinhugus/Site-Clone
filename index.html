@@ -13,13 +13,14 @@
     <link href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-font-face.min.css" media="all"
         rel="stylesheet">
     <link href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <nav class="container-fluid">
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow">
             <a class="navbar-brand" href="#">Home</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,14 +28,14 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link" href="#">Shop<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Fishing Report</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#">Guides</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contact Us</a>
@@ -107,7 +108,7 @@
                                 </div>
                             </div>
                             <div class="col-md-12">
-                                <input type="submit" class="btn btn-success btn-send" value="Fish On">
+                                <input type="submit" class="btn btn-success btn-send" value="Submit">
                             </div>
                         </div>
                         <div class="row">
@@ -121,55 +122,64 @@
                 </form>
             </div>
             <div class="col-6 text-center pt-4">
-                <h2>Welcome to River Donkey Fly Shop</h2>
-                <p>The top outfitter in this Great Nation</p>
+                <h1 style="font-family: Lobster; font-size: xx-large;">Welcome to River Donkey Fly Shop</h1>
+                <h2 style="font-family: Lobster, sarif; font-size: x-large;">The top outfitter in this Great Nation</h2>
             </div>
         </div>
-        <div class="row .bg-secondary">
+        <div class="row dark-green">
             <div class="col-6 pl-5 pt-5 text-center">
                 <h2>River Flows</h2>
                 <h3>How high is the river today?</h3>
                 <p>Be sure to check out our CFS flow rates, updated daily.</p>
+                <img src="river.jpeg" alt=" blue river" class="rounded-circle" height="60%" width="35%">
             </div>
-            <div class="col-6 px-5 py-5">
-                <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0"
-                        aria-valuemax="100"></div>
-                </div>
-                <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0"
-                        aria-valuemax="100"></div>
-                </div>
-                <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0"
-                        aria-valuemax="100"></div>
-                </div>
 
-                <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0"
-                        aria-valuemax="100"></div>
+            <div class="col-6 px-5 py-5 spill-out">
+
+                <div class="progress pb-2 ">
+                    <div class="progress-bar bars" style="min-width: 20px; width: 70%">
+                        <b>BOISE MIDDLE</b> 700CFS
+                    </div>
                 </div>
-                <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
-                        aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress pb-2 ">
+                    <div class="progress-bar bars" style="min-width: 20px; width: 63%;">
+                        <b>BOISE SF</b> 639 CFS
+                    </div>
+                </div>
+                <div class="progress pb-2 ">
+                    <div class="progress-bar bars" style="min-width: 20px; width: 85%;">
+                        <b>BOISE IN-TOWN</b> 855 CFS
+                    </div>
+                </div>
+                <div class="progress pb-2 ">
+                    <div class="progress-bar bars" style="min-width: 20px; width: 54%">
+                        <b>OWYHEE RIVER</b> 540 CFS
+                    </div>
+                </div>
+                <div class="progress spill">
+                    <div class="progress-bar bars" style="min-width: 20px; width: 21%">
+                        <b>SILVER CREEK</b> 210 CFS
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-6 d-flex justify-content-center py-5">
-                <img src="fish.jpeg" height="500px" width="400px" class="rounded" alt="Fly Fishing">
-            </div>
-            <div class="col-6 text-center py-5 bg.secondary">
-                <i class="fas fa-fish"></i>
+        </div>
+        <div class="row fish">
+
+            <div class="col-6 text-center bg.secondary py-5 pr-5">
+                <img src="trout.jpeg" alt="trout" class="trout">
                 <h1>Interested in a Guided Trip?</h1>
                 <h1>River Donkey Has The Guides To Put You Into Fish</h1>
                 <p>For more information on our guided fishing trips, click that button!</p>
-                <button type="button" class="btn btn-secondary">Lets Fish!</button>
+                <button type="button" class="btn btn-secondary hover">Lets Fish!</button>
+            </div>
+            <div class="col-6 d-flex justify-content-center py-5">
+                <img src="fish.jpeg" height="450px" width="350px" class="rounded-circle" alt="Fly Fishing">
             </div>
         </div>
         <div class="row">
-            <div class="col-4 d-flex justify-content-center">
-                <div class="card bg-light mb-3" style="max-width: 18rem;">
+            <div class="col-4 d-flex justify-content-center d-flex align-items-center fish">
+                <div class="card bg-light mb-3" style="height: 85%; width: 75%;">
                     <div class="card-header d-flex justify-content-center">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -177,16 +187,16 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <div class="card-body">
-                        <h5 class="card-title">Light card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's
-                            content.</p>
+                    <div class="card-body text-center">
+                        <h5 class="card-title center-text">Friendly</h5>
+                        <p class="card-text">"All the staff are so friendly and welcoming, always have what I need!"
+                        </p>
+                        <p><b>Tim Dohmen</b></p>
                     </div>
                 </div>
             </div>
-            <div class="col-4 d-flex justify-content-center">
-                <div class="card bg-light mb-3" style="max-width: 18rem;">
+            <div class="col-4 d-flex justify-content-center d-flex align-items-center fish">
+                <div class="card bg-light mb-3 " style="width:100%;height: 100%; ">
                     <div class="card-header d-flex justify-content-center">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -195,16 +205,19 @@
                         <i class="fas fa-star"></i>
                     </div>
 
-                    <div class="card-body">
-                        <h5 class="card-title">Light card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's
-                            content.</p>
+                    <div class="card-body text-center">
+                        <h5 class="card-title center-text">Knowledgable</h5>
+                        <p class="card-text">"This has become my go to fly shop in town! The people are
+                            awesome and
+                            knowledgable and can answer any question I have about fly fishing!"
+                        </p>
+                        <p><b> Mark Ohnsman</b></p>
+
                     </div>
                 </div>
             </div>
-            <div class="col-4 d-flex justify-content-center">
-                <div class="card bg-light mb-3" style="max-width: 18rem;">
+            <div class="col-4 d-flex justify-content-center d-flex align-items-center fish">
+                <div class="card bg-light mb-3" style="height: 85%; width: 75%;">
                     <div class="card-header d-flex justify-content-center">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -212,24 +225,33 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <div class="card-body">
-                        <h5 class="card-title">Light card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's
-                            content.</p>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Professional</h5>
+                        <p class="card-text">"This was by far the best guided trip I've had in my fifty years of
+                            fishing! Thanks River Donkey!"
+                        </p>
+                        <p><b> Darryl Kilzer</b></p>
                     </div>
                 </div>
             </div>
         </div>
         <div class="row">
-            <div class="col text-center">
-                <p>"There's a fine line between fishing and standing on the shore like an idiot." <b>-Steven Wright</b>
+            <div class="col text-center p-5 dark-green>
+                <p>" There's a fine line between fishing and standing on the shore like an idiot." <b>-Steven
+                Wright</b>
                 </p>
             </div>
         </div>
     </main>
     <footer class="container">
-
+        <div class="row">
+            <div class="col d-flex justify-content-center flex-direction-column p-5">
+                <h3>Follow us<a href="https://www.twitter.com"> @riverdonkeyfly</a></h3>
+                <p><i class="fab fa-facebook-square fa-2x p-1"></i>
+                    <i class="fab fa-instagram fa-2x p-1"></i>
+                    <i class="fab fa-twitter fa-2x p-1"></i></p>
+            </div>
+        </div>
     </footer>
 
 </body>

@@ -12,8 +12,53 @@ background-attachment: fixed;
     background-color: #EBE8E7 ;
 }
 
-.progress {
-    height: 50px;
-}
 .body { 
     padding-top: 55px; }
+ .spill-out {
+    top: 90%;
+    position: static;
+  }
+ .fa-star {
+     color: gold;
+ }
+ .progress {
+  background-color: #AAC4B0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  height: 50px;
+}
+.dark-green {
+    background-color: #AAC4B0;
+}
+.bars {
+    background-color: #3C6791;
+}
+.river-jpeg {
+    background-color: #AAC4B0;
+}
+.trout {
+    background-color: #D5D5D5;
+    height: 30%;
+    width: 25%;
+}
+.guide{
+    width: 10vh;
+    height: 10vh
+}
+.spill-out {
+    top: 80%;
+    position: absolute;
+    right: 0%;
+  }
+.fish {
+    background-color: #D5D5D5;;
+}
+.lobster {
+    font-family: Lobster;
+}
+.hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.spill {
+    background: linear-gradient(#AAC4B0 46%, #D5D5D5 30%);
+}
