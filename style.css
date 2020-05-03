@@ -14,10 +14,7 @@ background-attachment: fixed;
 
 .body { 
     padding-top: 55px; }
- .spill-out {
-    top: 90%;
-    position: static;
-  }
+ 
  .fa-star {
      color: gold;
  }
