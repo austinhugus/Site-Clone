@@ -61,9 +61,6 @@ background-attachment: fixed;
 .spill {
     background: linear-gradient(#AAC4B0 46%, #D5D5D5 30%);
 }
-.crimson {
-    font-family: 
-}
 
 @media only screen and (max-width:600px) {
     .hide{
