@@ -42,11 +42,13 @@ background-attachment: fixed;
     width: 10vh;
     height: 10vh
 }
+
 .spill-out {
     top: 80%;
     position: absolute;
     right: 0%;
-  }
+    }
+
 .fish {
     background-color: #D5D5D5;;
 }
@@ -58,4 +60,32 @@ background-attachment: fixed;
 }
 .spill {
     background: linear-gradient(#AAC4B0 46%, #D5D5D5 30%);
+}
+.crimson {
+    font-family: 
+}
+
+@media only screen and (max-width:600px) {
+    .hide{
+        display: none;
+    }
+}
+@media only screen and (min-width:600px) {
+  .hide-button{ 
+      display: none;
+    
+    }
+}
+@media only screen and (max-width:600px) {
+    .no-pad {
+       padding-bottom: 50%;
+    }
+}
+@media only screen and (max-width:600px) {
+    .add-pad {
+        padding-bottom: 30%;
+    }
+}
+.color-but {
+    background-color: #208924;
 }
